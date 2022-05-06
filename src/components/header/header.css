@@ -7,6 +7,10 @@
     padding: 4px;
     align-content: center;
     display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+
+
 }
 
 .left_header{
@@ -28,6 +32,10 @@
     border-radius: 4px;
     color: rgb(72, 71, 71);
     padding-left: 8px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .headSearch > input{
@@ -40,3 +48,35 @@ background: none;
    color:  rgb(72, 71, 71);
    font-size: 11pt;
     }
+
+
+
+    .right_header{
+        display: flex;
+        
+    }
+
+    .headerOption{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 20px;
+        color: gray;
+        cursor: pointer;
+    }
+
+    .headerOption:hover{
+        color: black;
+    }
+
+.headerOpitonTitle{
+font-size: 9pt;
+font-weight: 300;
+margin: 0;
+
+
+}
+
+.headerOptionIcon{
+  align-items: bottom;
+}
