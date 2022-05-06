@@ -1,0 +1,42 @@
+.header{
+    color: rgb(32, 32, 31);
+    background-color: white;
+    height: 50px;
+    display: grid;
+    align-items: center;
+    padding: 4px;
+    align-content: center;
+    display: flex;
+}
+
+.left_header{
+    display: flex;
+}
+
+
+.left_header > img{
+    object-fit: contain;
+    height: 35px;
+    margin-right: 8px;
+}
+
+.headSearch{
+    display: flex;
+    align-items: center;
+    background: rgb(233, 237, 238);
+    width: 20rem;
+    border-radius: 4px;
+    color: rgb(72, 71, 71);
+    padding-left: 8px;
+}
+
+.headSearch > input{
+outline: none;
+border: none;
+background: none;
+}
+
+.headSearch > input::placeholder{
+   color:  rgb(72, 71, 71);
+   font-size: 11pt;
+    }

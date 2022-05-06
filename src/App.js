@@ -1,12 +1,17 @@
 import React from 'react';
 import './App.css';
+import Header from './components/header/header'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>let build linked in</h1>
-      </header>
+    <div>
+
+      <Header />
+
+      {/* <app body/> */}
+      {/* <side bar /> */}
+      {/* <feed /> */}
+      {/* <widget /> */}
     </div>
   );
 }
