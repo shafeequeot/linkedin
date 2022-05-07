@@ -7,7 +7,6 @@ import GroupsIcon from '@mui/icons-material/Groups';
 import WorkIcon from '@mui/icons-material/Work';
 import MessageIcon from '@mui/icons-material/Message';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 import { Avatar } from '@material-ui/core';
 export default function header() {
     return (
@@ -29,11 +28,10 @@ export default function header() {
                         <HeaderOptions Icon={NotificationsIcon} title='Notification' />
                         <Avatar src='http://shafeequeot.6te.net/assets/images/about-img.jpg' title='Me' />
                     <div>
-                    </div>
-
-
                 </div>
+
             </div>
+        </div>
 
 
         </div>

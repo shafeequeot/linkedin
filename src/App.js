@@ -12,6 +12,7 @@ function App() {
 <div className="appBody">
 
       <SideBar />
+  
       {/* <feed /> */}
       {/* <widget /> */}
 

@@ -3,3 +3,7 @@
   display: block;
   align-items: center;
 }
+
+.appBody{
+  display: flex;
+}
