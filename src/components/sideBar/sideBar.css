@@ -9,6 +9,7 @@
     border-top: 0;
     padding-bottom: 10px;
     margin-top: 10px;
+    
 }
 
 
@@ -37,15 +38,18 @@ height: 60px;
 .sideBarStat{
     display: flex;
     justify-content: space-between;
-    background: white;
     padding-right: 10px;
     padding-left: 10px;
+   
 }
 
 .sideBarStat > p{
     color: gray;
     font-size: 13px;
     font-weight: 600;
+    margin: 0px;
+    padding: 4px;
+   
 }
 
 .sideBarStatNumbers{
@@ -61,6 +65,7 @@ height: 60px;
     border: 1px solid lightgray;
     border-radius: 10px;
     margin-top: 10px;
+    position: sticky;
 }
 
 .sideBarBottum > p{
@@ -74,7 +79,7 @@ height: 60px;
     color: gray;
     font-weight: 500;
     cursor: pointer;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     padding: 5px;
 }
 
@@ -85,4 +90,16 @@ height: 60px;
 .sideBaritems:hover{
    color: black;
    background-color: lightgray;
+}
+.sideBarStats{
+
+    border: solid 0.2px lightgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    padding: 12px;
+}
+
+.sideBar{
+   flex: 0.2;
 }

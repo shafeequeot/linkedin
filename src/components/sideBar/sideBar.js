@@ -28,7 +28,7 @@ function sideBar() {
                 </div>
 
                 <div className='sideBarStat'>
-                    <p> Who vieved you profile</p>
+                    <p> Who viewed you</p>
                     <p className='sideBarStatNumbers'> 1001</p>
 
                 </div>
