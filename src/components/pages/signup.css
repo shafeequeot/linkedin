@@ -1,0 +1,45 @@
+.signUpForm{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin: auto;
+    border-radius: 4px;
+    padding: 12px;
+    margin-top: 12vh;
+
+}
+
+.signUpForm > label{
+    color: gray;
+    font-size: 10pt;
+
+}
+
+.signUpForm > input{
+    height: 32px;
+    border: 0.5px solid gray;
+    margin-bottom: 12px;
+    border-radius: 3px;
+}
+
+.signUpForm > p{
+    font-size: 8pt;
+    color: lightgrey;
+
+}
+
+.signUpForm > button{
+    height: 42px;
+ background: #0a66c2;
+ color: white;
+ border: none;
+ border-radius: 26px;
+}
+
+.signUpForm > h2{
+   font-size: 18pt;
+   font-weight: lighter;
+
+}
+
