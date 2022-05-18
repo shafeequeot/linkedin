@@ -1,4 +1,4 @@
-.signUpForm{
+.signUpForm > form{
     width: 380px;
     display: flex;
     flex-direction: column;
@@ -6,30 +6,30 @@
     margin: auto;
     border-radius: 4px;
     padding: 12px;
-    margin-top: 12vh;
+    margin-top: 4vh;
 
 }
 
-.signUpForm > label{
+.signUpForm > form > label{
     color: gray;
     font-size: 10pt;
 
 }
 
-.signUpForm > input{
+.signUpForm > form > input{
     height: 32px;
     border: 0.5px solid gray;
     margin-bottom: 12px;
     border-radius: 3px;
 }
 
-.signUpForm > p{
+.signUpForm > form > p{
     font-size: 8pt;
     color: lightgrey;
 
 }
 
-.signUpForm > button{
+.signUpForm > form > button{
     height: 42px;
  background: #0a66c2;
  color: white;
@@ -37,9 +37,15 @@
  border-radius: 26px;
 }
 
-.signUpForm > h2{
+.signUpForm > form > h2{
    font-size: 18pt;
    font-weight: lighter;
 
 }
 
+.signIn{
+    margin-top: 10px;
+    text-align: center;
+    color:#0a66c2;
+    cursor: pointer;
+}
