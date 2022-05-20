@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
 import './signup.css'
-import {  createUserWithEmailAndPassword } from "firebase/auth";
-import {auth} from "../../app/firebase/config"
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
-
-
+import firebase from "firebase/app";
 function Signup() {
 
   const [email, setEmail] = useState("")
@@ -22,7 +20,7 @@ const [profilePic, setProfilePic] = useState("")
       if(!email) return alert('please enter email id')
       if(!password) return alert('please enter the password')
 
-      createUserWithEmailAndPassword(auth, email, password)
+      firebase.auth().createUserWithEmailAndPassword(email, password)
       .then((userCredential) => {
         // Signed in 
         const user = userCredential.user;
